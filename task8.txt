@@ -1,0 +1,84 @@
+
+Non function in c :
+
+#include <stdio.h>
+int main()
+{
+  int a,b,result;
+  a=10;
+  b=23;
+  result=(a*a)+(b*b)+(2*a*b);
+    printf("%d",result);
+}
+
+
+
+
+
+AVERAGE OF THREE NUMBETRS WITHOUT FUNCTIONS;
+
+
+
+
+#include <stdio.h>
+int main()
+{
+  int a,b,c,result;
+  a=10;
+  b=23;
+  c=15;
+  result=(a+b+c)/3;
+    printf("%d",result);
+}
+
+
+AVERAGE OF THREE NUMBETRS WITH FUNCTIONS;
+
+
+
+
+
+#include <stdio.h>
+void avg(int a, int b, int c)
+{
+int result;
+result=(a+b+c)/3;
+printf("%d\n",result);
+}
+int main()
+{ 
+  avg(10,20,30);
+  avg(20,40,100);
+}
+
+
+
+using java method
+
+public class SquareofNumber1 {
+	private static Scanner sc;
+	public static void main(String[] args) 
+	{
+		int number, square;
+		sc = new Scanner(System.in);
+		
+		System.out.print(" Please Enter any Number : ");
+		number = sc.nextInt();	
+	
+		
+		square = calsquare(number);
+		
+		System.out.println("The Square of a Given Number" + square);
+	}
+	
+	public static int calsquare(int num)
+	{
+		return num * num;
+	}
+}
+
+
+
+
+
+
