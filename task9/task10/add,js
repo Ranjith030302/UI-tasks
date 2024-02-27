@@ -1,0 +1,5 @@
+function dosum(x, y) {
+  let result;
+  result = x + y;
+  console.log(result);
+}
